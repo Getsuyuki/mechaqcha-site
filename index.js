@@ -31,7 +31,7 @@ window.onload = function(){
               }
             },
             "opacity": {
-              "value": 0.5,
+              "value": 0.3,
               "random": false,
               "anim": {
                 "enable": false,
@@ -51,7 +51,7 @@ window.onload = function(){
               }
             },
             "line_linked": {
-              "enable": true,
+              "enable": false,
               "distance": 300,
               "color": "#ffffff",
               "opacity": 0.4,
@@ -59,7 +59,7 @@ window.onload = function(){
             },
             "move": {
               "enable": true,
-              "speed": 12,
+              "speed": 8,
               "direction": "none",
               "random": false,
               "straight": false,
@@ -76,8 +76,8 @@ window.onload = function(){
             "detect_on": "canvas",
             "events": {
               "onhover": {
-                "enable": false,
-                "mode": "repulse"
+                "enable": true,
+                "mode": "bubble"
               },
               "onclick": {
                 "enable": true,
@@ -93,15 +93,15 @@ window.onload = function(){
                 }
               },
               "bubble": {
-                "distance": 800,
-                "size": 80,
+                "distance": 250,
+                "size": 9,
                 "duration": 2,
                 "opacity": 0.8,
                 "speed": 3
               },
               "repulse": {
-                "distance": 400,
-                "duration": 0.4
+                "distance": 200,
+                "duration": 0.5
               },
               "push": {
                 "particles_nb": 4
