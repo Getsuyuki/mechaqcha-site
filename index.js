@@ -2,6 +2,7 @@
 window.onload = function(){
     //disabled because chrome sucks
     //particlesJS.load('particles-js', 'assets/particles.json', function() {alert('callback - particles.js config loaded');});    
+    //TODO: investigate image option for particles
     particlesJS('particles-js',
         {
           "particles": {
@@ -22,10 +23,10 @@ window.onload = function(){
                 "color": "#000000"
               },
               "polygon": {
-                "nb_sides": 5
+                "nb_sides": 12
               },
               "image": {
-                "src": "img/github.svg",
+                "src": "assets/Logo.svg",
                 "width": 100,
                 "height": 100
               }
@@ -41,12 +42,12 @@ window.onload = function(){
               }
             },
             "size": {
-              "value": 10,
+              "value": 5,
               "random": true,
               "anim": {
                 "enable": false,
                 "speed": 80,
-                "size_min": 0.1,
+                "size_min": 3,
                 "sync": false
               }
             },
@@ -59,7 +60,7 @@ window.onload = function(){
             },
             "move": {
               "enable": true,
-              "speed": 8,
+              "speed": 1,
               "direction": "none",
               "random": false,
               "straight": false,
@@ -94,7 +95,7 @@ window.onload = function(){
               },
               "bubble": {
                 "distance": 250,
-                "size": 9,
+                "size": 7,
                 "duration": 2,
                 "opacity": 0.8,
                 "speed": 3
@@ -112,5 +113,5 @@ window.onload = function(){
             }
           },
           "retina_detect": true
-        }, function() {console.log("i hate life")})
+        }, function() {console.log("i hate life")});
 };

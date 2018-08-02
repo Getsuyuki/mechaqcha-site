@@ -8,5 +8,10 @@ body {
 .bg {
     width: 100%;
     height: 100%;   
-    background-color: black;
+    position: fixed;
+    background-color: #12023A;
+    background-image: url("Logo2_T.png");
+    background-size: 20%;
+    background-position:  50% 50%;
+    background-repeat: no-repeat;
 }
