@@ -7,6 +7,8 @@ var tabDict = {
     5: "Contact and Other"
 };
 
+var numVisibleTabs = 5;
+
 class TabView extends React.Component {
 
     renderTabTopicSelector () {
